@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Fontawesome Icons</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+    <link href="./dialog.css" media="all" nonce="" rel="stylesheet">
+
+    <script>
+        var faBrands = [
+            "500px", "accessible-icon", "accusoft", "adn", "adversal", "affiliatetheme", "airbnb", "algolia", "alipay", "amazon", "amazon-pay", "amilia", "android", "angellist", "angrycreative", "angular", "app-store", "app-store-ios", "apper", "apple", "apple-pay", "artstation", "asymmetrik", "atlassian", "audible", "autoprefixer", "avianex", "aviato", "aws", "bandcamp", "battle-net", "behance", "bimobject", "bitbucket", "bitcoin", "bity", "black-tie", "blackberry", "blogger", "blogger-b", "bluetooth", "bluetooth-b", "bootstrap", "btc", "buffer", "buromobelexperte", "buysellads", "canadian-maple-leaf", "cc-amazon-pay", "cc-amex", "cc-apple-pay", "cc-diners-club", "cc-discover", "cc-jcb", "cc-mastercard", "cc-paypal", "cc-stripe", "cc-visa", "centercode", "centos", "chrome", "chromecast", "cloudscale", "cloudsmith", "cloudversify", "codepen", "codiepie", "confluence", "connectdevelop", "contao", "cpanel", "creative-commons", "creative-commons-by", "creative-commons-nc", "creative-commons-nc-eu", "creative-commons-nc-jp", "creative-commons-nd", "creative-commons-pd", "creative-commons-pd-alt", "creative-commons-remix", "creative-commons-sa", "creative-commons-sampling", "creative-commons-sampling-plus", "creative-commons-share", "creative-commons-zero", "critical-role", "css3", "css3-alt", "cuttlefish", "d-and-d", "d-and-d-beyond", "dashcube", "delicious", "deploydog", "deskpro", "dev", "deviantart", "dhl", "diaspora", "digg", "digital-ocean", "discord", "discourse", "dochub", "docker", "draft2digital", "dribbble", "dropbox", "drupal", "dyalog", "earlybirds", "ebay", "edge", "elementor", "ello", "ember", "empire", "envira", "erlang", "ethereum", "etsy", "evernote", "expeditedssl", "facebook", "facebook-f", "facebook-messenger", "fantasy-flight-games", "fedex", "fedora", "figma", "firefox", "first-order", "first-order-alt", "firstdraft", "flickr", "flipboard", "fly", "font-awesome", "fonticons", "fonticons-fi", "fort-awesome", "fort-awesome-alt", "forumbee", "foursquare", "free-code-camp", "freebsd", "fulcrum", "galactic-republic", "galactic-senate", "get-pocket", "gg", "gg-circle", "git", "github", "github-alt", "gitkraken", "gitlab", "gitter", "glide", "glide-g", "gofore", "goodreads", "goodreads-g", "google", "google-drive", "google-play", "google-plus", "google-plus-g", "google-wallet", "gratipay", "grav", "gripfire", "grunt", "gulp", "hacker-news", "hackerrank", "hips", "hire-a-helper", "hooli", "hornbill", "hotjar", "houzz", "html5", "hubspot", "imdb", "instagram", "intercom", "internet-explorer", "invision", "ioxhost", "itch-io", "itunes", "itunes-note", "java", "jedi-order", "jenkins", "jira", "joget", "joomla", "js", "jsfiddle", "kaggle", "keybase", "keycdn", "kickstarter", "kickstarter-k", "korvue", "laravel", "lastfm", "leanpub", "less", "line", "linkedin", "linkedin-in", "linode", "linux", "lyft", "magento", "mailchimp", "mandalorian", "markdown", "mastodon", "maxcdn", "medapps", "medium", "medrt", "meetup", "megaport", "mendeley", "microsoft", "mix", "mixcloud", "mizuni", "modx", "monero", "napster", "neos", "nimblr", "node", "node-js", "npm", "ns8", "nutritionix", "odnoklassniki", "old-republic", "opencart", "openid", "opera", "optin-monster", "osi", "page4", "pagelines", "palfed", "patreon", "paypal", "periscope", "phabricator", "phoenix-framework", "phoenix-squadron", "php", "pied-piper", "pied-piper-alt", "pied-piper-hat", "pied-piper-pp", "pinterest", "pinterest-p", "playstation", "product-hunt", "pushed", "python", "qq", "quinscape", "quora", "r-project", "raspberry-pi", "ravelry", "react", "reacteurope", "readme", "rebel", "red-river", "reddit", "reddit-alien", "redhat", "renren", "replyd", "researchgate", "resolving", "rev", "rocketchat", "rockrms", "safari", "salesforce", "sass", "schlix", "scribd", "searchengin", "sellcast", "sellsy", "servicestack", "shirtsinbulk", "shopware", "simplybuilt", "sistrix", "sith", "sketch", "skyatlas", "skype", "slack", "slideshare", "snapchat", "soundcloud", "sourcetree", "speakap", "speaker-deck", "spotify", "squarespace", "stack-exchange", "stack-overflow", "staylinked", "steam", "steam-symbol", "sticker-mule", "strava", "stripe", "stripe-s", "studiovinari", "stumbleupon", "stumbleupon-circle", "superpowers", "supple", "suse", "symfony", "teamspeak", "telegram", "tencent-weibo", "the-red-yeti", "themeco", "themeisle", "think-peaks", "trade-federation", "trello", "tumblr", "twitch", "twitter", "typo3", "uber", "ubuntu", "uikit", "uniregistry", "untappd", "ups", "usb", "usps", "ussunnah", "vaadin", "viacoin", "viadeo", "viber", "vimeo", "vimeo-v", "vine", "vk", "vnv", "vuejs", "waze", "weebly", "weibo", "weixin", "whatsapp", "whmcs", "wikipedia-w", "windows", "wix", "wizards-of-the-coast", "wolf-pack-battalion", "wordpress", "wordpress-simple", "wpbeginner", "wpexplorer", "wpforms", "wpressr", "xbox", "xing", "y-combinator", "yahoo", "yammer", "yandex", "yandex-international", "yarn", "yelp", "yoast", "youtube", "zhihu"
+        ];
+        var faRegular = [
+            "address-book", "address-card", "bell", "bell-slash", "bookmark", "building", "calendar", "calendar-check", "calendar-minus", "calendar-plus", "chart-bar", "chess-bishop", "chess-king", "chess-knight", "chess-pawn", "chess-queen", "chess-rook", "circle", "clipboard", "clock", "clone", "closed-captioning", "comment", "comment-dots", "comments", "compass", "copy", "copyright", "credit-card", "envelope", "envelope-open", "eye", "eye-slash", "file", "file-audio", "file-code", "file-excel", "file-image", "file-pdf", "file-powerpoint", "file-video", "file-word", "flag", "folder", "folder-open", "futbol", "gem", "hand-lizard", "hand-peace", "hand-point-down", "hand-point-left", "hand-point-right", "hand-point-up", "hand-pointer", "hand-scissors", "hand-spock", "handshake", "heart", "hospital", "hourglass", "hourglass-half", "id-badge", "id-card", "image", "images", "keyboard", "lemon", "life-ring", "lightbulb", "map", "moon", "newspaper", "object-group", "object-ungroup", "paper-plane", "paste", "registered", "snowflake", "square", "square-full", "star", "star-half", "sun", "thumbs-down", "thumbs-up", "user", "window-maximize", "window-minimize", "window-restore"
+        ];
+        var faSolid = [
+            "address-book","address-card","align-center","align-justify","align-left","align-right","anchor","angle-down","angle-left","angle-right","angle-up","ankh","archway","arrow-down","arrow-left","arrow-right","arrow-up","asterisk","at","atom","audio-description","award","baby","baby-carriage","backward","bacon","ban","barcode","bars","baseball","bath","battery-empty","battery-full","battery-half","battery-quarter","battery-three-quarters","bed","bell","bell-slash","bezier-curve","bicycle","binoculars","biohazard","blender","blender-phone","blog","bold","bolt","bomb","bone","bong","book","book-medical","book-open","bookmark","bowling-ball","box","box-open","braille","brain","bread-slice","briefcase","briefcase-medical","broom","brush","bug","building","bullhorn","bullseye","bus","business-time","calculator","calendar","calendar-check","calendar-day","calendar-minus","calendar-plus","calendar-week","camera","camera-retro","campground","candy-cane","cannabis","capsules","car","car-battery","car-side","caret-down","caret-left","caret-right","caret-up","carrot","cart-arrow-down","cart-plus","cash-register","cat","certificate","chair","chalkboard","charging-station","chart-area","chart-bar","chart-line","chart-pie","check","check-double","cheese","chess","chess-bishop","chess-board","chess-king","chess-knight","chess-pawn","chess-queen","chess-rook","chevron-down","chevron-left","chevron-right","chevron-up","child","church","circle","circle-notch","city","clipboard","clipboard-check","clipboard-list","clipboard-user","clock","clone","closed-captioning","cloud","cloud-meatball","cloud-moon","cloud-moon-rain","cloud-rain","cloud-showers-heavy","cloud-sun","cloud-sun-rain","code","code-branch","code-commit","code-merge","coins","comment","comment-dollar","comment-dots","comment-medical","comment-slash","comments","comments-dollar","compact-disc","compass","compress","cookie","cookie-bite","copy","copyright","couch","cow","credit-card","crop","cross","crosshairs","crow","crown","crutch","cube","cubes","database","democrat","desktop","dharmachakra","diamond","dice","dice-d20","dice-d6","dice-five","dice-four","dice-one","dice-six","dice-three","dice-two","disease","divide","dna","dog","dollar-sign","dolly","door-closed","door-open","dove","download","dragon","draw-polygon","drum","drum-steelpan","drumstick-bite","dumbbell","dumpster","dumpster-fire","dungeon","egg","eject","envelope","envelope-open","envelope-open-text","equals","eraser","ethernet","euro-sign","exclamation","expand","eye","eye-dropper","eye-slash","fax","feather","file","file-audio","file-code","file-contract","file-csv","file-excel","file-export","file-image","file-import","file-invoice","file-invoice-dollar","file-medical","file-pdf","file-powerpoint","file-prescription","file-signature","file-video","file-word","fill","fill-drip","film","filter","fingerprint","fire","fire-extinguisher","fish","flag","flag-checkered","flag-usa","flask","folder","folder-minus","folder-open","folder-plus","folder-tree","font","forward","frog","futbol","gamepad","gas-pump","gavel","gem","genderless","ghost","gift","gifts","glasses","globe","gopuram","graduation-cap","greater-than","greater-than-equal","grip-lines","grip-lines-vertical","grip-vertical","guitar","hammer","hamsa","hand-holding","hand-holding-heart","hand-lizard","hand-middle-finger","hand-peace","hand-point-down","hand-point-left","hand-point-right","hand-point-up","hand-pointer","hand-scissors","hand-spock","hands","handshake","hanukiah","hashtag","hat-wizard","heading","headphones","headset","heart","helicopter","highlighter","hippo","hockey-puck","holly-berry","horse","horse-head","hospital","hospital-user","hotdog","hotel","hourglass","hourglass-end","hourglass-half","hourglass-start","hurricane","i-cursor","ice-cream","icicles","id-badge","id-card","igloo","image","images","inbox","indent","industry","infinity","info","italic","jedi","joint","kaaba","key","keyboard","khanda","kiwi-bird","landmark","language","laptop","laptop-code","laptop-medical","layer-group","leaf","lemon","less-than","less-than-equal","life-ring","lightbulb","link","lira-sign","list","list-ol","list-ul","location-arrow","lock","lock-open","lungs","magnet","map","map-pin","marker","mars","mars-double","mars-stroke","mask","medal","memory","menorah","mercury","meteor","microchip","microphone","microphone-slash","microscope","minus","mitten","mobile","money-bill","money-bill-wave","money-check","monument","moon","mortar-pestle","mosque","motorcycle","mountain","mug-hot","music","network-wired","neuter","newspaper","not-equal","notes-medical","object-group","object-ungroup","oil-can","om","otter","outdent","pager","paint-roller","palette","pallet","paper-plane","paperclip","parachute-box","paragraph","passport","paste","pause","paw","peace","pen","pen-fancy","pen-nib","pencil","pepper-hot","percent","person-booth","phone","phone-slash","phone-volume","piggy-bank","pills","pizza-slice","place-of-worship","plane","plane-arrival","plane-departure","play","plug","plus","podcast","poo","poo-storm","poop","power-off","prescription","prescription-bottle","print","puzzle-piece","qrcode","question","quote-left","quote-right","radiation","rainbow","receipt","recycle","registered","repeat","reply","reply-all","republican","restroom","retweet","ribbon","ring","road","robot","rocket","route","rss","ruble-sign","ruler","ruler-combined","ruler-horizontal","ruler-vertical","rupee-sign","sack-dollar","satellite","satellite-dish","school","screwdriver","scroll","sd-card","seedling","server","shapes","share","shekel-sign","shield","ship","shoe-prints","shower","signal","signature","sim-card","sitemap","skull","skull-crossbones","slash","sleigh","smog","smoking","snowflake","snowman","snowplow","socks","solar-panel","sort","sort-down","sort-up","spa","spider","spinner","splotch","spray-can","square","square-full","stamp","star","star-and-crescent","star-half","star-of-david","star-of-life","stethoscope","stop","stopwatch","store","street-view","strikethrough","stroopwafel","subscript","suitcase","suitcase-rolling","sun","superscript","swatchbook","synagogue","syringe","table","tablet","tablets","tag","tags","tape","taxi","teeth","teeth-open","temperature-high","temperature-low","terminal","text-height","text-width","thermometer","thumbs-down","thumbs-up","thumbtack","ticket","toggle-off","toggle-on","toilet","toilet-paper","toolbox","tooth","torii-gate","tornado","tractor","trademark","traffic-light","train","transgender","trash","tree","trophy","truck","truck-monster","truck-moving","truck-pickup","tty","tv","umbrella","umbrella-beach","underline","universal-access","unlock","upload","user","user-astronaut","user-check","user-clock","user-graduate","user-injured","user-lock","user-minus","user-ninja","user-nurse","user-plus","user-secret","user-shield","user-slash","user-tag","user-tie","users","utensils","vector-square","venus","venus-double","venus-mars","vial","vials","video","video-slash","vihara","volcano","volume-off","vr-cardboard","wallet","wand-magic","warehouse","water","wave-square","weight-hanging","wheelchair","wifi","wind","window-maximize","window-minimize","window-restore","wine-bottle","wine-glass","won-sign","wrench","x-ray","yen-sign","yin-yang"
+        ];
+    </script>
+</head>
+<body>
+<div class="p-4">
+    <div class="row g-2">
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <label class="form-label mb-0" for="faSize">
+                Size
+            </label>
+            <select class="form-select form-select-sm" id="faSize" name="faSize">
+                <option value="">No</option>
+                <option value="fa-xs">fa-xs</option>
+                <option value="fa-sm">fa-sm</option>
+                <option value="fa-lg">fa-lg</option>
+                <option value="fa-2x">fa-2x</option>
+                <option value="fa-3x">fa-3x</option>
+                <option value="fa-5x">fa-5x</option>
+                <option value="fa-7x">fa-7x</option>
+                <option value="fa-10x">fa-10x</option>
+            </select>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <label class="form-label mb-0" for="faFw">
+                Fixed Width
+            </label>
+            <select class="form-select form-select-sm" id="faFw" name="faFw">
+                <option value="">No</option>
+                <option value="fa-fw">Yes</option>
+            </select>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <label class="form-label mb-0" for="faBorder">
+                Border
+            </label>
+            <select class="form-select form-select-sm" id="faBorder" name="faBorder">
+                <option value="">No</option>
+                <option value="fa-border">Yes</option>
+            </select>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <label class="form-label mb-0" for="faSpin">
+                Spinning
+            </label>
+            <select class="form-select form-select-sm" id="faSpin" name="faSpin">
+                <option value="">No</option>
+                <option value="fa-spin">Yes</option>
+            </select>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <label class="form-label mb-0" for="faRotate">
+                Rotate
+            </label>
+            <select class="form-select form-select-sm" id="faRotate" name="faRotate">
+                <option value="">No</option>
+                <option value="fa-rotate-90">fa-rotate-90</option>
+                <option value="fa-rotate-180">fa-rotate-180</option>
+                <option value="fa-rotate-270">fa-rotate-270</option>
+                <option value="fa-flip-horizontal">fa-flip-horizontal</option>
+                <option value="fa-flip-vertical">fa-flip-vertical</option>
+                <option value="fa-flip-both">fa-flip-both</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mt-2 g-2">
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <button class="btn btn-sm btn-dark w-100" data-icon-pref="fab" data-icons-group="faBrands">Brands
+                (<span></span>)
+            </button>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <button class="btn btn-sm btn-dark w-100" data-icon-pref="far" data-icons-group="faRegular">
+                Regular (<span></span>)
+            </button>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <button class="btn btn-sm btn-dark w-100" data-icon-pref="fas" data-icons-group="faSolid">Solid
+                (<span></span>)
+            </button>
+        </div>
+        <div class="form-group m-0 col-12 col-sm-6 col-md">
+            <input class="form-control form-control-sm" name="search" placeholder="Search"/>
+        </div>
+    </div>
+
+    <div class="pt-4">
+        <div class="row g-4" id="faIcons"></div>
+    </div>
+</div>
+
+<script src="./dialog.js"></script>
+</body>
+</html>

@@ -9,11 +9,11 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 0,
     'author' => 'Dirk Persky',
     'author_email' => 'dirk.persky@gmail.de',
-    'version' => '12.1.0',
+    'version' => '12.2.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.4.7-12.4.99',
-            'rte_ckeditor' => '12.4.7-12.4.99',
+            'typo3' => '12.4.7-13.4.99',
+            'rte_ckeditor' => '12.4.7-13.4.99',
         ],
         'conflicts' => [],
         'suggests' => [
